@@ -96,6 +96,7 @@ Module Module1
                 Console.ForegroundColor = ConsoleColor.Green
                 Console.WriteLine("Successfully Dumped ""ProgressBarSplash.exe""!...")
             End If
+            Console.ResetColor()
             openUnpackedDir = br.ReadBoolean()
             Console.WriteLine("Open Unpacked Directory: " & openUnpackedDir.ToString)
             unpackingDirectoryType = br.ReadInt32()
